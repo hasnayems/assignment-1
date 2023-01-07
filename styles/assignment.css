@@ -33,6 +33,7 @@ h1{
     margin-left: 50px;
 }
 .main-div-1-ul{
+    /* list-style-type:'\2713'; */
     list-style-image:url(/images/icons/checkmark.png);
 
 }
