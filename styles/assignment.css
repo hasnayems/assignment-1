@@ -23,6 +23,17 @@ h1{
 }
 .main-div-1{
     display: flex;
+    margin: 100px 200px;
+}
+.main-div-1-person{
+    height: 500px;
+}
+.md-1-2{
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.main-div-1-ul{
+    list-style: ;
 }
 h2{
     font-size: 40px;
@@ -30,6 +41,13 @@ h2{
 .main-div-2{
     display: flex;
     justify-content:space-around;
+}
+.main-div-2-hdr{
+    text-align: center;
+}
+.main-div-2{
+    text-align: center;
+    margin: 0 200px;
 }
 h3{
     font-size: 30px;
@@ -41,9 +59,9 @@ h5{
 .main-div-3{
     background-image: url('/images/watch.png');
     background-repeat: no-repeat;
-    background-size: cover;
     padding: 50px 50px;
-    margin: 50px 250px;
+    margin: 50px 200px;
+    border-radius: 10px;
     color: white;
     background-image:cross-fade(to right, rgba(110, 48, 48,9), rgba(0,0,0,0))
     
@@ -62,7 +80,8 @@ h5{
 .ftr{
     display: flex;
     justify-content: space-around;
-    padding: 50px 100px;
+    padding: 50px 0;
+    
 }
 .ftr-div-1, .ftr-div-2-hdr{
     color: white;
