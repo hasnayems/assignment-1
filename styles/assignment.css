@@ -60,12 +60,15 @@ h5{
 .main-div-3{
     background-image: url('/images/watch.png');
     background-repeat: no-repeat;
+    height: 200px;
     padding: 50px 50px;
     margin: 50px 200px;
     border-radius: 10px;
     color: white;
+    margin-bottom: 100px;
+
     /* its not working */
-    /* background-image:linear-gradient('to right, rgba(212,93,7,1), rgba(82,80,79,0)'); */
+    background-image:linear-gradient(to right, rgba(214, 119, 52, 1), rgba(61, 56, 54, 0));
 }
 .main-btn-1, .ftr-btn-1{
     background-color: white;
@@ -77,8 +80,6 @@ h5{
 }
 .ftr{
     background-color: black;
-}
-.ftr{
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
@@ -90,6 +91,9 @@ h5{
 .fd-1-1{
     display: flex;
     gap: 10px;
+}
+h4{
+    font-size: 25px;
 }
 .ftr-div-2-eml{
     background-color: black;
