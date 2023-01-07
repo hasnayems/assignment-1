@@ -1,5 +1,5 @@
 .hdr{
-    background-image: url('/images/banner/banner1.png');
+    background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -34,7 +34,7 @@ h1{
 }
 .main-div-1-ul{
     /* list-style-type:'\2713'; */
-    list-style-image:url(/images/icons/checkmark.png);
+    list-style-image:url(../images/icons/checkmark.png);
 
 }
 h2{
@@ -59,7 +59,7 @@ h5{
     color: gray;
 }
 .main-div-3{
-    background-image: url('/images/watch.png');
+    background-image: url('../images/watch.png');
     background-repeat: no-repeat;
     height: 200px;
     padding: 50px 50px;
