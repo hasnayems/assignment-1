@@ -23,7 +23,7 @@ h1{
 }
 .main-div-1{
     display: flex;
-    margin: 100px 200px;
+    margin: 100px 150px;
 }
 .main-div-1-person{
     height: 500px;
@@ -33,7 +33,8 @@ h1{
     margin-left: 50px;
 }
 .main-div-1-ul{
-    list-style: ;
+    list-style-image:url(/images/icons/checkmark.png);
+
 }
 h2{
     font-size: 40px;
@@ -63,8 +64,8 @@ h5{
     margin: 50px 200px;
     border-radius: 10px;
     color: white;
-    background-image:cross-fade(to right, rgba(110, 48, 48,9), rgba(0,0,0,0))
-    
+    /* its not working */
+    /* background-image:linear-gradient('to right, rgba(212,93,7,1), rgba(82,80,79,0)'); */
 }
 .main-btn-1, .ftr-btn-1{
     background-color: white;
